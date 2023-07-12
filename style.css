@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Titles */
+
+.title{
+    color: #4C545D;
+    font-weight: 600;
+}
+
+.big-title{
+    font-size: 1.4rem;
+    margin-bottom: 1rem
+}
+
+.small-title{
+    font-size: .9rem;
+    margin-bottom: .5rem;    
+}
+
+/*-----------------------*/
+
+/* Paragraphs */
+
+.p{
+    color: #9FABB2;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    
+}
+
+.small-p{
+    color: #9FABB2;
+    line-height: 1.5rem;
+}
+
+.p-1{
+    margin-bottom: 1.8rem;
+}
+
+.l-p{
+    padding-bottom: 1rem;
+}
+
+.footer-p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: #4C545D;
+
+}
+
+/*---------------------------*/
+
+/* Download buttons */
+
+.button{
+    font-family: 'Bai Jamjuree';
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-1{
+    background-color: #26BAA4;
+    box-shadow: 0 3px #1F9987;
+}
+
+.btn-2{
+    background-color: #6173FF;
+    box-shadow: 0 3px #5363DB;
+}
+
+button{
+    cursor: pointer;
+}
+
+.btn-1:active{
+    background-color: #5DCCBB;
+}
+
+.btn-2:active{
+    background-color: #8896ff;
+}
+
+/*-------------------------------*/
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;   
+}
+
+#header img{
+    padding: 5rem 0 2rem 0;
+    width: 90px;
+}
+
+#header-txt{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 1.9rem;
+    padding-bottom: .6rem;
+}
+
+#header p{
+    padding-bottom: 2rem;
+}
+
+#section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#sec-1-title{
+    margin-bottom: 3rem;
+}
+
+#section-2 img{
+    width: 550px;
+    margin-bottom: 2rem;
+}
+
+#section-3{
+    margin-bottom: 2rem;
+}
+
+#sec-3-title{
+    margin-bottom: 3rem;
+}
+
+.info img{
+    margin-bottom: 2rem;
+}
+
+#section-5{
+    margin-bottom: 5rem;
+}
+
+#footer{
+    background-color: #F5F6F8;
+}
+
+#footer img{
+    width: 50px;
+}
+
+/* Desktop design */
+@media(min-width: 700px){
+    #header{
+        background-image: url(images/bg-header-desktop.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header-txt{
+        width: 500px;
+        text-align: center;
+    }
+
+    #header p{
+        font-size: .88rem;
+    }
+
+    .small-p{
+        font-size: 0.77rem;
+    }
+
+    .button{
+        width: 150px;
+        height: 35px;
+    }
+
+    .btn-1{
+        margin-right: .3rem;
+    }
+
+    .btn-2{
+        margin-left: .3rem;
+    }
+
+    #sec-1-title{
+        width: 480px;
+        text-align: center;
+    }
+
+    #sec-1-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      
+    }
+    
+    #section-1 img{
+        width: 500px;
+        margin: 0 5rem 0 -1.2rem;
+    }
+
+    #sec-1-txt{
+        padding-right: 11rem;
+    }
+
+    #section-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sec-2-title{
+        width: 500px;  
+        margin-bottom: 2rem;     
+        text-align: center;
+    }
+
+    #section-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sec-3-title{
+        text-align: center;
+    }
+
+    #sec-3-info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .info{
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info img{
+        width: 30px;
+        margin-bottom: 2rem;
+    }
+
+    .info-1{
+        margin-right: 2rem;
+    }
+
+    .info-3{
+        margin-left: 2rem;
+    }
+
+    #section-4{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 7rem 5rem 7rem 5rem;
+    }
+    
+    #section-4 img{
+        width: 100px;
+    }
+
+    #section-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sec-5-title{
+        width: 460px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 4rem 3rem 5rem;
+    }
+
+    #footer-txt{
+        width: 500px;
+        display: flex;
+        flex-direction: row;    
+    }
+
+    #contact{
+        padding-right: 5rem;
+    }
+    
+    #privacy-policy{
+        padding-right: 5rem;
+    }
+    
+    #social-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #social-media img{
+        padding-right: 1rem;
+        width: 35px;
+    }
+
+}
+
+/* Mobile design */
+@media(max-width: 700px){
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .small-title{
+        font-size: 1.4rem;
+        margin-bottom: 1rem
+    }
+
+    #header{
+        background-image: url(images/bg-header-mobile.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    #header-txt{
+        width: 300px;
+
+    }
+
+    #header p{
+        padding: 0 .7rem 2rem .7rem;
+        font-size: .9rem;
+    }
+
+    #sec-1-title{
+        padding: 0 1rem 0 1rem;
+        width: 300px;
+        text-align: center;
+    }
+
+    .small-p{
+        font-size: .9rem;
+    }
+
+    #sec-1-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #section-1 img{
+        width: 300px;
+        padding-bottom: 3rem;
+    }
+
+    #sec-1-txt{
+        width: 270px;
+    }
+
+    #header-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+    }
+
+    .button{
+        width: 100%;
+        height: 45px;
+    }
+
+    .btn-1{
+        margin-bottom: 1rem;
+    }
+
+    #section-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sec-2-title{
+        width: 280px;
+        padding-bottom: 2rem;
+    }
+
+    #section-2 img{
+        width: 300px;
+    }
+
+    #section-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #sec-3-title{
+        width: 280px;
+    }
+
+    .info{
+        width: 280px;
+    }
+
+    .info img{
+        width: 40px;
+    }
+
+    .info .small-p{
+        padding-bottom: 2rem;
+    }
+
+    #section-4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #section-4 img{
+        padding-bottom: 3rem;
+        width: 110px;
+    }
+
+    #section-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sec-5-title{
+        width: 275px;
+    }
+
+    #sec-5-title{
+        margin-bottom: 2rem;
+    }
+
+    #sec-5-buttons{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 275px;
+    }
+
+    #footer{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    #footer img{
+        padding: 2rem 0 2rem 0;
+    }
+
+    .footer-txt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contact{
+        padding-bottom: 1rem;
+    }
+
+    #privacy-policy{
+        padding-bottom: 1rem;
+    }
+
+    #social-media{
+        width: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #social-media img{
+        width: 20px;
+    }
+
+    footer{
+        width: 100vw;
+    }
+}
+
+footer {
+    background-color: #F5F6F8;
+    color: #4C545D;
+    padding: .5rem 0 .5rem 0;
+    font-size: .8rem;
+    text-align: center;
+}
+
+footer a {
+    color: #3E52A3; 
+}
