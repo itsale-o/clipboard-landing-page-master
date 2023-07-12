@@ -28,9 +28,17 @@ Users should be able to:
 
 This is what my solution looks like on mobile devices and desktop
 
+<div align="center">
 
 ![](images/mobile_solution.png)
+
+</div>
+
+<div align="center">
+  
 ![](images/desktop%20solution.png)
+
+</div>
 
 ### Links
 
