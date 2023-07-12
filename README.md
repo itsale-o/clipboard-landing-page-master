@@ -42,8 +42,8 @@ This is what my solution looks like on mobile devices and desktop
 
 ### Links
 
-- Solution URL: [My solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [My solution on Frontend Mentor]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/clipboard-landing-page-master-challenge-cCQ1VTZomv))
+- Live Site URL: [Live site URL](https://itsale-o.github.io/clipboard-landing-page-master/)
 
 ## My process
 
